@@ -7,8 +7,9 @@
         <h1>my CV</h1>
         <h3>Education</h3>
         <h4>proficiency in</h4>
-        <ul><li>Math</li><li>Phy</li><li>Computing</li></ul>
-        <h3>Exprience</h3>
+        <ul><li>Math degree </li><li>A in Phy</li><li>A in Computing</li></ul>
+        
+        <h3>Experience</h3>
         <ul><li>Tutorial and Supporting</li>
         <li>Editing for Publications</li>
         <li>Headed a team overseeing tutorial services for 3000 pupils</li>
