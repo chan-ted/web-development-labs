@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hi I am Chan</title>
+    </head>    
+    <body>
+        <h1>my CV</h1>
+        <h3>Education</h3>
+        <h4>proficiency in</h4>
+        <ul><li>Math</li><li>Phy</li><li>Computing</li></ul>
+        <h3>Exprience</h3>
+        <ul><li>Tutorial and Supporting</li>
+        <li>Editing for Publications</li>
+        <li>Headed a team overseeing tutorial services for 3000 pupils</li>
+        </ul>
+    </body>
+</html>
