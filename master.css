@@ -4,5 +4,6 @@ h3 {background-color: yellow;
 ul > li {
     background-color: orange;
     font-size: 20 px;
+    font-family:italic;
     color:blue;
 }
