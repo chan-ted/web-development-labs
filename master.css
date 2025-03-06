@@ -1,0 +1,9 @@
+h3 {background-color: yellow;
+    color: darkseagreen;
+   }
+ul > li {
+    background-color: orange;
+    font-size: 20 px;
+    font-style:italic;
+    color:blue;
+}
