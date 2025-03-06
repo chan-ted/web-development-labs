@@ -1,0 +1,16 @@
+body{margin:0;
+     font-family:Arial , san-serif
+    }
+header{
+}
+.main{
+}
+.side{
+}
+footer div{
+  flex:1;
+}
+footer div:first-child{margin-left:0 ;
+}
+footer div:last-child{margin-right:0 ;
+}
