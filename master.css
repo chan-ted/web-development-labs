@@ -1,4 +1,8 @@
 h3 {background-color: yellow;
-    
+    color: darkseagreen;
    }
-
+ul > li {
+    background-color: orange;
+    font-size: 20 px;
+    color:blue;
+}
