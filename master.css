@@ -1,5 +1,5 @@
 h3 {background-color: blue;
      font-size:2em ;
    }
-li{color:red;
+ul > li {color:red;
   }
