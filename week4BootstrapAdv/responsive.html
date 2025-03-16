@@ -150,9 +150,9 @@
                     <div class="card shadow-sm">
                         <img src="https://picsum.photos/200" class="card-img-top" alt="Story Image">
                         <div class="card-body">
-                            <button type="button" class="card-text text-center text-md-start btn btn-primary">Resources</button>
+                            <button type="button" class="card-text text-center text-md-start btn btn-primary" id="toResourcesBtn">Resources</button>
                             <div class="toast-container position-fixed bottom-0 start-0 p-3">
-                                <div class="toast show" role="alert" id="toResources">
+                                <div class="toast" role="alert" id="toResources" aria-live="assertive" aria-atomic="true">
                                     <div class="toast-header">
                                         <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
                                     </div>
@@ -179,7 +179,9 @@
                     <div class="card">
                         <img src="https://picsum.photos/100" class="card-img-top" alt="info">
                         <div class="card-body">
-                            <h6 class="card-title">People</h6>
+                            <h6 class="card-title"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="talk to our tutors!">People</a></h6>
                             <p class="card-text">Knowlegeable & Ethusiastic</p>
                         </div>
                     </div>
@@ -204,5 +206,18 @@
                 </div>
             </div>
         </div>
+        <script>
+            const toastTrigger = document.getElementById('toResourcesBtn')
+            const toastLiveExample = document.getElementById('toResources')
+            if (toastTrigger) {
+             const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+             toastTrigger.addEventListener('click', () => {
+              toastBootstrap.show()
+              })
+            }
+            
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+        </script>
     </body>
 </html>
